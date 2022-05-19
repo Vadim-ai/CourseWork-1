@@ -16,7 +16,6 @@ public class Employee {
     this.id = Count;
     Count++;
 }
-
     public String getFullname() {
         return fullname;
     }
