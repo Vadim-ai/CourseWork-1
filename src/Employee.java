@@ -42,7 +42,13 @@ public class Employee {
 
     @Override
     public String toString() {
-        return id + " " + fullname + " " +  salary + " " + department;
+        return String.format(
+                "id: %d, ФИО: %s, ЗП: %.2f, № отдела: %d",
+                id,
+                fullname,
+                salary,
+                department
+        );
     }
 
 }
